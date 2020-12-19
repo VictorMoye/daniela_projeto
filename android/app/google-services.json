@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "907783421788",
+    "firebase_url": "https://daniela-61dc8-default-rtdb.firebaseio.com",
+    "project_id": "daniela-61dc8",
+    "storage_bucket": "daniela-61dc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907783421788:android:22318e413786e20f758b99",
+        "android_client_info": {
+          "package_name": "com.example.daniela"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907783421788-21ub91s578dshts31l0vnghk8q2hl861.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArFmqJFk1atpgLXxzgxgxlBFOzsgH9b5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907783421788-21ub91s578dshts31l0vnghk8q2hl861.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907783421788:android:4424a6bbe8a76016758b99",
+        "android_client_info": {
+          "package_name": "com.example.firabeagoravai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907783421788-21ub91s578dshts31l0vnghk8q2hl861.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArFmqJFk1atpgLXxzgxgxlBFOzsgH9b5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907783421788-21ub91s578dshts31l0vnghk8q2hl861.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
