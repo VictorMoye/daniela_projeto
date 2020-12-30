@@ -18,6 +18,7 @@ class MyAppLogin extends StatelessWidget {
 }
 }
 class MyHome extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,28 +46,30 @@ class MyHome extends StatelessWidget {
 
                 child: new Text("LogIn"),
 
-                color:  Colors.blueAccent[600],
+                color: Colors.blueAccent[600],
 
-                onPressed: () => Navigator.of(context).pushNamed('/main', arguments: ''),
+                onPressed: () =>Navigator.of(context).pushNamed('/main', arguments: ''),
 
-              )
+              ),
             ],
           ),
         ),
       ),
     );
   }
+
   textFormFieldLogin() {
     return TextFormField(
         keyboardType: TextInputType.text,
         style: TextStyle(color: Colors.black),
         decoration: InputDecoration(
             labelText: "Login",
-            labelStyle: TextStyle(fontSize:20.0, color: Colors.black),
+            labelStyle: TextStyle(fontSize: 20.0, color: Colors.black),
             hintText: "Informe o login"
         )
     );
   }
+
   textFormFieldSenha() {
     return TextFormField(
         obscureText: true,

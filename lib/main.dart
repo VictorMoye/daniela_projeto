@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 
 
-
 void main() {
   runApp(MyApp());
 }
@@ -107,8 +106,7 @@ class MyHome extends StatelessWidget {
 
 sendMessage() {
   _firebaseRef.push().set({
-    "message": "torcendo",
-    "timestamp": 'agora foi',
+    "message": "Hoje a gente consegue ",
+    "timestamp": 'agora vai ',
   });
 }
-
