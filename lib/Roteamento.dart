@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:daniela/main.dart';
 import 'package:daniela/Login_senha.dart';
+
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings){
     final args = settings.arguments;

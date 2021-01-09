@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:daniela/main.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:daniela/Roteamento.dart';
-
+import 'package:daniela/Login_senha.dart';
+//import 'package:daniela/pages/contatoPge.dart';
 void main() {
   runApp(MyApp());
 }
@@ -18,6 +19,9 @@ class MyAppLogin extends StatelessWidget {
 }
 }
 class MyHome extends StatelessWidget {
+
+  final _emailController = TextEditingController();
+
 
   @override
   Widget build(BuildContext context) {
@@ -45,8 +49,6 @@ class MyHome extends StatelessWidget {
               new RaisedButton(
 
                 child: new Text("LogIn"),
-
-                color: Colors.blueAccent[600],
 
                 onPressed: () =>Navigator.of(context).pushNamed('/main', arguments: ''),
 
@@ -83,3 +85,4 @@ class MyHome extends StatelessWidget {
     );
   }
 }
+
